@@ -1,0 +1,109 @@
+html,body{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	
+	margin:0px;
+	font-size: 0px;
+}
+
+body{
+	overflow: hidden;
+}
+
+.soundShowDiv{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	left: 40px;
+	top: 25px;
+	background-color: #fff;
+	border-radius: 100px;
+}
+
+.soundShow{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	border-radius: 100px;
+	background-color: red;
+	opacity: 0;
+}
+
+
+#game{
+	display: inline-block;
+	height: 100%;
+	width: 120%;
+	margin-left: -10%;
+	background-color: #82d5d1;
+}
+
+.startButton,.gameOver{
+	display: inline-block;
+
+	position: absolute;
+	top:0px;
+	bottom: 0px;
+	left:0px;
+	right: 0px;
+	margin:auto;
+}
+
+.startButton{
+	width: 400px;
+	height: 100px;
+
+	background-image: url("../img/clicktostart.png");
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+.gameOver{
+	width: 600px;
+	height: 300px;
+	text-align: center;
+	display: none;
+}
+
+.gameOverShow{
+	width: 100%;
+	height: 200px;
+
+	background-image: url("../img/gameover.png");
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.restartButton{
+	width: 400px;
+	height: 100px;
+
+	background-image: url("../img/playagain.png");
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	margin: 0 auto;
+}
+
+.score{
+	display: inline-block;
+	width: 150px;
+	height:150px;
+
+	color: #fff;
+	font:150px/150px arial;
+	text-align: center;
+	margin: 0px auto;
+
+	position: absolute;
+	right: 0px;
+	left: 0px;
+	top: 40px;
+}
+
